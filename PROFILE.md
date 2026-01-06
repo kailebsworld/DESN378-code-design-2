@@ -23,7 +23,7 @@ Update it once, keep it consistent everywhere.
 | Platform | Profile URL | Status |
 |----------|-------------|--------|
 | **GitHub** | https://github.com/kailebsworld | ⏳ |
-| **Figma** | @kaileb | ⏳ |
+| **Figma** | https://www.figma.com/@kaileb | ⏳ |
 | **CodePen** | https://codepen.io/kailebsworld | ⏳ |
 | **Portfolio** | *Coming Week 10* | 🔲 |
 
