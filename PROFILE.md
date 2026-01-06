@@ -22,18 +22,18 @@ Update it once, keep it consistent everywhere.
 
 | Platform | Profile URL | Status |
 |----------|-------------|--------|
-| **GitHub** | https://github.com/kailebsworld | ⏳ |
-| **Figma** | https://www.figma.com/@kaileb | ⏳ |
-| **CodePen** | https://codepen.io/kailebsworld | ⏳ |
+| **GitHub** | https://github.com/kailebsworld | ✅ |
+| **Figma** | https://www.figma.com/@kaileb | ✅ |
+| **CodePen** | https://codepen.io/kailebsworld | ✅ |
 | **Portfolio** | *Coming Week 10* | 🔲 |
 
 ---
 
 ## Profile Photo
 
-- [ ] Same photo uploaded to GitHub, Figma, and CodePen
-- [ ] Professional or at least *intentional*
-- [ ] Face visible (helps me learn names!)
+- [✅] Same photo uploaded to GitHub, Figma, and CodePen
+- [✅] Professional or at least *intentional*
+- [✅] Face visible (helps me learn names!)
 
 ---
 
@@ -41,8 +41,8 @@ Update it once, keep it consistent everywhere.
 
 | Item | Status |
 |------|--------|
-| Applied/Renewed | ⏳ |
-| Copilot Access | ⏳ |
+| Applied/Renewed | ✅ |
+| Copilot Access | ✅ |
 | Expires | Have |
 
 👉 [Check status or renew](https://education.github.com/pack)
@@ -53,8 +53,8 @@ Update it once, keep it consistent everywhere.
 
 | Item | Status |
 |------|--------|
-| Education Plan Active | ⏳ |
-| Joined Course Team | ⏳ |
+| Education Plan Active | ✅ |
+| Joined Course Team | ✅ |
 | Expires | Have |
 
 👉 [Check status](https://www.figma.com/settings) → Plan
