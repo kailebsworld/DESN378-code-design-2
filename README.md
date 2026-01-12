@@ -1,6 +1,6 @@
 # DESN 378: Code + Design 2
 
-🔗 **[Learning Log](https://kailebsworld.github.io/DESN-378-code-design-2)
+🔗 **[Learning Log](https://kailebsworld.github.io/DESN378-code-design-2/2)
 
 
 🔗 **[DESN368 Portfolio](https://kailebsworld.github.io)
