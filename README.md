@@ -25,8 +25,7 @@ This is my workspace for **DESN 378 Code + Design 2** also known as **Web Design
 ## Learning Log
 
 # Learning Log
-​
-## Week 1
+
 ​
 ### What I Learned
 <!-- What concepts clicked for you? What was new? -->
@@ -46,20 +45,34 @@ This is my workspace for **DESN 378 Code + Design 2** also known as **Web Design
 ​
 ### Work Completed (Week 0)
 ​
+## Week 0
+​
+### What I Learned
+I learned a lot about the language of Java Script espescially the do's and dont's. I Learned that there are certain characters that are not allowed and certain ones are for example no using capital letters in the beginning but are allowed in the second word. (log scorePoints;)​
+### What Was Hard
+I found the personalized message section hard on the Behavioral layer assignment.
+​
+### How I Used AI
+I had to use copilot to help me with my coding for Java Script for the personalized message section of the Behaviroal layer.
+​
+### What's Still Unclear
+I'm starting to understand Java Script but I feel like I need to see a lot of it in actual use to fully grasp whatit does and am def going to have to refer back to my notes still 
+​
+### Work Completed (Week 0)
+​
 **Engage**
-- [ ] Portfolio Audit
+- [x] Portfolio Audit
 ​
 **Learn**
-- [ ] Console Explorer
-- [ ] Codedex Console Fundamentals
+- [x] Console Explorer
+- [x] Codedex Console Fundamentals
 ​
 **Reflect**
-- [ ] Visual Notes: Variables and Strings
+- [x] Visual Notes: Variables and Strings
 ​
 **Build**
-- [ ] The Setup
-- [ ] The Behavioral Layer
-​
+- [x] The Setup
+- [x] The Behavioral Layer​
 ---
 
 Instructions
@@ -97,35 +110,6 @@ Complete Criteria
     Committed and pushed to GitHub
 
 Example Entry
-
-## Week 0
-​
-### What I Learned
-I learned a lot about the language of Java Script espescially the do's and dont's. I Learned that there are certain characters that are not allowed and certain ones are for example no using capital letters in the beginning but are allowed in the second word. (log scorePoints;)​
-### What Was Hard
-I found the personalized message section hard on the Behavioral layer assignment.
-​
-### How I Used AI
-I had to use copilot to help me with my coding for Java Script for the personalized message section of the Behaviroal layer.
-​
-### What's Still Unclear
-I'm starting to understand Java Script but I feel like I need to see a lot of it in actual use to fully grasp whatit does and am def going to have to refer back to my notes still 
-​
-### Work Completed (Week 0)
-​
-**Engage**
-- [x] Portfolio Audit
-​
-**Learn**
-- [x] Console Explorer
-- [x] Codedex Console Fundamentals
-​
-**Reflect**
-- [x] Visual Notes: Variables and Strings
-​
-**Build**
-- [x] The Setup
-- [x] The Behavioral Layer
 
 Connection to Portfolio
 
