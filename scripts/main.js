@@ -12,7 +12,7 @@ console.log('Portfolio loaded');
 alert("I'm Java Script");
 
 const username = 'kailebsworld';
-const repo = 'DESN-378-code-design-2';
+const repo = 'DESN378-code-design-2';
 
 fetch('https://api.github.com/repos/' + username + '/' + repo + '/git/trees/main?recursive=1')
   .then(res => res.json())
