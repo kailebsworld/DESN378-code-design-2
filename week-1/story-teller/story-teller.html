@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Bloody Valentine</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <main class="card step-1" id="card">
+      <header class="top">
+        <h1 class="title">
+          <span id="myWord">MY</span> BLOODY VALENTINE
+        </h1>
+        <p class="sub" id="sub">click the image</p>
+      </header>
+
+      <section class="stage">
+        <div class="frame">
+          <img
+            id="pic"
+            src="assets/images/image-1.jpg"
+            alt="Saturday, February 14th, Valentine's Day"
+          />
+          <div class="tag" id="hint">click</div>
+        </div>
+
+        <div class="textBox">
+          <p id="caption">Click the image to begin...</p>
+        </div>
+
+        <div class="dots" id="dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+
+        <div class="btnRow" id="btnRow">
+          <button id="resetBtn" type="button">reset</button>
+          <button id="myBtn" type="button">change “my”</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
