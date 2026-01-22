@@ -129,7 +129,28 @@ Website url input
 
 
 ### Week 1: Systems That Respond
-*Coming soon...*
+# Learning Log
+​
+## Week 1
+​
+### What I Learned
+<!-- What concepts clicked for you? What was new? -->
+The story teller assignment taught me about else{ which can change the photos through out my story!​
+​
+### What Was Hard
+<!-- What frustrated you? What didn't make sense? -->
+Learn 1-3 // html academy chtp. 2 Introduction to Javascript chapters 10 - 17 was a little frustrating and def had to use chat when I got stuck but I got through it!​
+​
+### How I Used AI
+<!-- Did you use Copilot, ChatGPT, etc.? How did it help or not help? -->
+Yes! Used it to help me make my story teller assignment cooler (heartbeat dots, and typewriter effect) + html academy.​
+​
+### What's Still Unclear
+<!-- What questions do you still have? What needs more practice? -->
+Excited to learn more!!​
+​
+
+
 
 ### Week 2: Remembering Choices
 *Coming soon...*
