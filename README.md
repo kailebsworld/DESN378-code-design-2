@@ -148,7 +148,24 @@ Yes! Used it to help me make my story teller assignment cooler (heartbeat dots, 
 ### What's Still Unclear
 <!-- What questions do you still have? What needs more practice? -->
 Excited to learn more!!​
-​
+### Work Completed (Week 1)
+
+**Engage**
+- [x] VS Code Theme Setup
+
+**Learn**
+- [x] Codedex.io Variables
+- [x] HTML Academy 
+
+**Practice**
+- [x] The Story Teller
+
+**Build**
+- [ ] Portfolio Migration
+- [x] Portfolio in Figma + Style Tile
+
+**Reflect**
+- [x] Visual Notes: Week 1---​
 
 
 
