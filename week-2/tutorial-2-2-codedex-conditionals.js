@@ -35,9 +35,9 @@ if (hour1 < 12) {
 let hour2 = 13;
 
 if (hour2 < 12) {
-  console.log("Good morning 🌞");
+  console.log("Good morning!");
 } else {
-  console.log("Good afternoon ☁️");
+  console.log("Good afternoon!");
 }
 // --------------------------------------------
 // EXERCISE 14: pH LEVELS
