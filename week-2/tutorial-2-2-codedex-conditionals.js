@@ -21,9 +21,9 @@ if (num > 0.5) {
 // Check if hour < 12
 // If true, print morning greeting with routines
 // --------------------------------------------
-​let hour = 7;
+let hour1 = 7;
 
-if (hour < 12) {
+if (hour1 < 12) {
   console.log("Good morning 🌞");
 }
 // --------------------------------------------
@@ -32,9 +32,9 @@ if (hour < 12) {
 // If hour < 12: morning greeting
 // Else: afternoon greeting
 // --------------------------------------------
-​let hour = 13;
+let hour2 = 13;
 
-if (hour < 12) {
+if (hour2 < 12) {
   console.log("Good morning 🌞");
 } else {
   console.log("Good afternoon ☁️");
