@@ -170,7 +170,23 @@ Excited to learn more!!​
 
 
 ### Week 2: Remembering Choices
-*Coming soon...*
+
+### What I Learned
+<!-- What concepts clicked for you? What was new? -->
+I'm understanding design tokens better and why they're nice to integrate into your figma file! I think the part that help me clicked that together was in the figma variables assignment and we switched the modes from dark to light! Makes things way faster to play around with than just styles!​
+​
+### What Was Hard
+<!-- What frustrated you? What didn't make sense? -->
+I didn't realize that the "layers" for applying modes, look for the Appearance panel instead so that was frustrating for about 20 minutes but with my good pal chat and my fellow classmtes group chat we got there!​
+​
+### How I Used AI
+<!-- Did you use Copilot, ChatGPT, etc.? How did it help or not help? -->
+Just to help me figure out the appearance panel like stated above!​
+​
+### What's Still Unclear
+<!-- What questions do you still have? What needs more practice? -->
+Still need more practice with java but the puzzle pieces have started connecting! Excited to see what else we do with it!!​
+​
 
 ---
 
