@@ -186,7 +186,23 @@ Just to help me figure out the appearance panel like stated above!​
 ### What's Still Unclear
 <!-- What questions do you still have? What needs more practice? -->
 Still need more practice with java but the puzzle pieces have started connecting! Excited to see what else we do with it!!​
-​
+
+**Engage**
+- [x] VS Code Theme Setup
+
+**Learn**
+- [x] Codedex.io Conditionals
+- [x] figma variables
+
+**Practice**
+- [x] The Switch
+
+**Build**
+- [x] The Foundation
+- [x] Portfolio in Figma + Style Tile
+
+**Reflect**
+- [x] Visual Notes: Week 2---​
 
 ---
 
