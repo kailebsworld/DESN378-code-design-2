@@ -205,7 +205,46 @@ Still need more practice with java but the puzzle pieces have started connecting
 - [x] Visual Notes: Week 2---​
 
 ---
+## Week 3
+​
+### What I Learned
+<!-- Design tokens, state vs appearance, system preference, persistence -->
+​I learned why we use them! It truly makes life easier when working with Java!
+​
+### What Was Hard
+<!-- What broke, confused you, or took time to understand -->
+​I was very confused on the toggle at first and did have to ask chat to help me!
+​
+### How I Used AI
+<!-- Copilot, ChatGPT, etc. What you asked and why -->
+​Yes!
+​
+### What's Still Unclear
+<!-- Questions that remain -->
+​None!
+​
 
+### Work Completed (Week 3)
+
+**Design Tokens**
+- [x] variables.css exists
+- [x] Color tokens defined
+- [x] Typography tokens defined
+- [x] Spacing tokens defined
+- [x] Tokens used in CSS (no hardcoded values)
+
+**Theme System**
+- [x] Uses data-theme on <html>
+- [x] Toggle feedback is immediate
+
+**Persistence & Preference**
+- [x] Theme saved to localStorage
+- [x] Theme persists on refresh
+- [x] System preference used on first visit
+
+**Deployment**
+- [x] Deployed to GitHub Pages
+- [x] Repository is public
 ## Quick Links
 
 - [My Profile](PROFILE.md)
