@@ -251,6 +251,94 @@ Still need more practice with java but the puzzle pieces have started connecting
 - [Labs](labs/)
 
 ---
+# Learning Log
+​
+## Week 3
+​
+### What I Learned
+<!-- Design tokens, state vs appearance, system preference, persistence -->
+​I learned why we use them! It truly makes life easier when working with Java!
+​
+### What Was Hard
+<!-- What broke, confused you, or took time to understand -->
+​I was very confused on the toggle at first and did have to ask chat to help me!
+​
+### How I Used AI
+<!-- Copilot, ChatGPT, etc. What you asked and why -->
+​Yes!
+​
+### What's Still Unclear
+<!-- Questions that remain -->
+​None!
+​
+
+### Work Completed (Week 3)
+
+**Design Tokens**
+- [x] variables.css exists
+- [x] Color tokens defined
+- [x] Typography tokens defined
+- [x] Spacing tokens defined
+- [x] Tokens used in CSS (no hardcoded values)
+
+**Theme System**
+- [x] Uses data-theme on <html>
+- [x] Toggle feedback is immediate
+
+**Persistence & Preference**
+- [x] Theme saved to localStorage
+- [x] Theme persists on refresh
+- [x] System preference used on first visit
+
+**Deployment**
+- [x] Deployed to GitHub Pages
+- [x] Repository is public
+
+### Theme Dropdown + SVG Notes (Practice 3)
+
+**SVG icon snippets (inline-ready)**
+
+```html
+<!-- System -->
+<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="3.5" y="5" width="17" height="11.5" rx="2"></rect>
+  <line x1="9" y1="19" x2="15" y2="19"></line>
+  <line x1="12" y1="16.5" x2="12" y2="19"></line>
+</svg>
+```
+
+```html
+<!-- Light -->
+<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="12" cy="12" r="4.25"></circle>
+  <line x1="12" y1="2.5" x2="12" y2="5"></line>
+  <line x1="12" y1="19" x2="12" y2="21.5"></line>
+  <line x1="2.5" y1="12" x2="5" y2="12"></line>
+  <line x1="19" y1="12" x2="21.5" y2="12"></line>
+  <line x1="5.3" y1="5.3" x2="7.1" y2="7.1"></line>
+  <line x1="16.9" y1="16.9" x2="18.7" y2="18.7"></line>
+  <line x1="5.3" y1="18.7" x2="7.1" y2="16.9"></line>
+  <line x1="16.9" y1="7.1" x2="18.7" y2="5.3"></line>
+</svg>
+```
+
+```html
+<!-- Dark -->
+<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="10.75" cy="12" r="6.25" fill="currentColor" stroke="none"></circle>
+  <circle cx="14.25" cy="12" r="6.25" fill="var(--color-surface-primary)" stroke="none"></circle>
+</svg>
+```
+
+**Anatomy check**
+- `viewBox="0 0 24 24"` defines the internal coordinate system for the icon, so shapes align and scale consistently at any rendered size.
+- `currentColor` makes SVG color inherit from the element text color, so one icon works across light/dark themes without rewriting fills/strokes.
+- This icon set uses primitives only (`circle`, `rect`, `line`) and does not use `path`.
+
+**Reflection**
+- Icon design: The System icon uses a monitor shape to communicate "follow device/OS behavior" instead of forcing a fixed light or dark state.
+- System logic: `localStorage` stores the user choice (`system`, `light`, or `dark`), then JS resolves the applied page theme. For `system`, applied theme follows `prefers-color-scheme`.
+- Unexpected learning: Click-driven dropdowns need explicit open/close state management (outside click + Escape) to feel stable on both desktop and mobile.
 
 ## Tools
 
