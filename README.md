@@ -168,7 +168,7 @@ Excited to learn more!!​
 - [x] Visual Notes: Week 1---​
 
 
-
+---
 ### Week 2: Remembering Choices
 
 ### What I Learned
@@ -251,9 +251,7 @@ Still need more practice with java but the puzzle pieces have started connecting
 - [Labs](labs/)
 
 ---
-# Learning Log
-​
-## Week #
+## Week #4
 ​
 ### What I Learned
 I learned how SVGs are built from basic shapes and a viewBox, then how transforms move/rotate elements without redrawing everything
@@ -267,9 +265,11 @@ I did to help me with the theme dropdown menu!​
 ​
 ### What's Still Unclear
 I’m still not totally sure when it’s smarter to avoid paths vs just accept that paths are the correct tool for anything remotely complex. I’ll dig deeper....
-​
-​
+
+---
 # Learning Log
+​
+
 
 
 ```html
