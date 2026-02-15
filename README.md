@@ -253,50 +253,24 @@ Still need more practice with java but the puzzle pieces have started connecting
 ---
 # Learning Log
 ​
-## Week 3
+## Week #
 ​
 ### What I Learned
-<!-- Design tokens, state vs appearance, system preference, persistence -->
-​I learned why we use them! It truly makes life easier when working with Java!
-​
+I learned how SVGs are built from basic shapes and a viewBox, then how transforms move/rotate elements without redrawing everything
+​​
 ### What Was Hard
-<!-- What broke, confused you, or took time to understand -->
-​I was very confused on the toggle at first and did have to ask chat to help me!
+Creating an SVG without using paths was the hardest part, because you have to think in primitives (rect/circle/polygon) and layer/position them cleanly instead of just “draw the shape and move on.” So I ended up just making it pixelated haha.​
 ​
 ### How I Used AI
 <!-- Copilot, ChatGPT, etc. What you asked and why -->
-​Yes!
+I did to help me with the theme dropdown menu!​
 ​
 ### What's Still Unclear
-<!-- Questions that remain -->
-​None!
+I’m still not totally sure when it’s smarter to avoid paths vs just accept that paths are the correct tool for anything remotely complex. I’ll dig deeper....
 ​
+​
+# Learning Log
 
-### Work Completed (Week 3)
-
-**Design Tokens**
-- [x] variables.css exists
-- [x] Color tokens defined
-- [x] Typography tokens defined
-- [x] Spacing tokens defined
-- [x] Tokens used in CSS (no hardcoded values)
-
-**Theme System**
-- [x] Uses data-theme on <html>
-- [x] Toggle feedback is immediate
-
-**Persistence & Preference**
-- [x] Theme saved to localStorage
-- [x] Theme persists on refresh
-- [x] System preference used on first visit
-
-**Deployment**
-- [x] Deployed to GitHub Pages
-- [x] Repository is public
-
-### Theme Dropdown + SVG Notes (Practice 3)
-
-**SVG icon snippets (inline-ready)**
 
 ```html
 <!-- System -->
