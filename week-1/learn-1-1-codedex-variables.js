@@ -3,7 +3,7 @@
 // Student: [Kaileb]
 // Date: [1-14-26]
 // ============================================
-​
+
 // --------------------------------------------
 // EXERCISE 6: LET & CONST
 // Create 4 variables for a user profile:
@@ -12,7 +12,7 @@
 // Print them all, then reassign one let variable
 // --------------------------------------------
 
-​const firstName = "Kaileb";
+const firstName = "Kaileb";
 const favoriteColor = "Blue"
 
 let currentLocation = "Bedroom";
@@ -25,7 +25,7 @@ console.log(mood);
 
 mood = "Wide awake";
 console.log(mood);
-​
+
 // --------------------------------------------
 // EXERCISE 7: DATA TYPES
 // Create variables for your favorite company:
@@ -33,7 +33,7 @@ console.log(mood);
 // Print them all
 // --------------------------------------------
 
-​const companyName = "Maison Margiela";
+const companyName = "Maison Margiela";
 
 const foundingYear = 1988;
 
@@ -45,20 +45,20 @@ console.log(companyName);
 console.log(foundingYear);
 console.log(isActive);
 console.log(fundingAmount);
-​
+
 // --------------------------------------------
 // EXERCISE 8: TEMPERATURE
 // Convert Brooklyn,NY temperature from °F to °C
 // Formula: (fahrenheit - 32) / 1.8
 // --------------------------------------------
 
-​const fahrenheit = 46;
+const fahrenheit = 46;
 
 const celsius = (fahrenheit - 32) / 1.8;
 
 console.log("Brooklyn temp in °F:", fahrenheit);
 console.log("Brooklyn temp in °C:", celsius);
-​
+
 // --------------------------------------------
 // EXERCISE 9: TIP CALCULATOR
 // Calculate tip and total from a bill
@@ -67,7 +67,7 @@ console.log("Brooklyn temp in °C:", celsius);
 // - total = billAmount + tipAmount
 // --------------------------------------------
 
-​const billAmount = 42.75;
+const billAmount = 42.75;
 const tipPercent = 18;
 
 const tipAmount = billAmount * (tipPercent / 100);
@@ -78,7 +78,7 @@ console.log("Bill: $" + billAmount.toFixed(2));
 console.log("Tip (" + tipPercent + "%): $" + tipAmount.toFixed(2));
 console.log("Total: $" + total.toFixed(2));
 console.log("---------------------");
-​
+
 // --------------------------------------------
 // EXERCISE 10: PLAYLIST DURATION
 // Calculate total playlist length
@@ -86,8 +86,8 @@ console.log("---------------------");
 // - totalMinutes, hours, remainingMinutes
 // Format the output nicely
 // --------------------------------------------
-​
-​const numberOfSongs = 30;
+
+const numberOfSongs = 30;
 const avgSongLength = 4; // minutes
 
 const totalMinutes = numberOfSongs * avgSongLength; // 120
@@ -99,4 +99,3 @@ console.log("Avg length: " + avgSongLength + " minutes");
 console.log("Total time: " + totalMinutes + " minutes");
 console.log("Total time in hours: " + totalHours + " hours");
 console.log("------------------------------");
-​

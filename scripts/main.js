@@ -9,16 +9,20 @@
 console.log('Portfolio loaded');
 
 //Week 0: Hello World
-alert("I'm Java Script");
-
 const username = 'kailebsworld';
 const repo = 'DESN378-code-design-2';
+const nav = document.querySelector('nav');
 
 fetch('https://api.github.com/repos/' + username + '/' + repo + '/git/trees/main?recursive=1')
-  .then(res => res.json())
+  .then(res => {
+    if (!res.ok) {
+      throw new Error('GitHub API request failed: ' + res.status);
+    }
+    return res.json();
+  })
   .then(data => {
-    const nav = document.querySelector('nav');
-    
+    if (!nav || !data || !Array.isArray(data.tree)) return;
+
     const indexFiles = data.tree
       .filter(item => item.path.endsWith('/index.html'))
       .map(item => item.path.replace('/index.html', ''));
@@ -45,7 +49,7 @@ fetch('https://api.github.com/repos/' + username + '/' + repo + '/git/trees/main
       const subUl = document.createElement('ul');
       li.appendChild(subUl);
 
-      weeks[week].forEach(project => {
+      weeks[week].sort().forEach(project => {
         const subLi = document.createElement('li');
         const link = document.createElement('a');
         link.href = week + '/' + project + '/';
@@ -54,6 +58,9 @@ fetch('https://api.github.com/repos/' + username + '/' + repo + '/git/trees/main
         subUl.appendChild(subLi);
       });
     });
+  })
+  .catch(error => {
+    console.error('Failed to build project navigation:', error);
   });
 // Week 1: You'll add theme toggle code here
 // Week 2: You'll add localStorage persistence here

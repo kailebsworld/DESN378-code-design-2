@@ -3,13 +3,13 @@
 // Student: Kaileb Cardle
 // Date: 1-25-26
 // ============================================
-​
+
 // --------------------------------------------
 // EXERCISE 11: COIN FLIP
 // Simulate a coin toss using Math.random()
 // Output "Heads" or "Tails"
 // --------------------------------------------
-​let num = Math.random();
+let num = Math.random();
 
 if (num > 0.5) {
   console.log("Heads");
@@ -59,7 +59,7 @@ if (ph > 7) {
 // Return different responses based on number
 // Format: Question / Magic 8 Ball Answer
 // --------------------------------------------
-​const question = "Will I Graduate in June?";
+const question = "Will I Graduate in June?";
 
 const randomNumber = Math.floor(Math.random() * 9) + 1;
 
@@ -94,7 +94,7 @@ console.log("Answer:   ", answer);
 // Check AQI ranges using logical operators
 // 0-50: Good, 51-100: Moderate, etc.
 // --------------------------------------------
-​const aqi = 301;
+const aqi = 301;
 
 if (aqi >= 0 && aqi <= 50) {
   console.log("Good");
@@ -115,7 +115,7 @@ if (aqi >= 0 && aqi <= 50) {
 // Computer picks random 0-2
 // Determine winner using conditionals
 // --------------------------------------------
-​// 0 = Rock
+// 0 = Rock
 // 1 = Paper
 // 2 = Scissors
 
