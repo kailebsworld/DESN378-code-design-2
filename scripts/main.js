@@ -8,60 +8,7 @@
 
 console.log('Portfolio loaded');
 
-//Week 0: Hello World
-const username = 'kailebsworld';
-const repo = 'DESN378-code-design-2';
-const nav = document.querySelector('nav');
-
-fetch('https://api.github.com/repos/' + username + '/' + repo + '/git/trees/main?recursive=1')
-  .then(res => {
-    if (!res.ok) {
-      throw new Error('GitHub API request failed: ' + res.status);
-    }
-    return res.json();
-  })
-  .then(data => {
-    if (!nav || !data || !Array.isArray(data.tree)) return;
-
-    const indexFiles = data.tree
-      .filter(item => item.path.endsWith('/index.html'))
-      .map(item => item.path.replace('/index.html', ''));
-
-    const weeks = {};
-    indexFiles.forEach(path => {
-      const parts = path.split('/');
-      if (parts.length === 2) {
-        const week = parts[0];
-        const project = parts[1];
-        if (!weeks[week]) weeks[week] = [];
-        weeks[week].push(project);
-      }
-    });
-
-    const ul = document.createElement('ul');
-    nav.appendChild(ul);
-
-    Object.keys(weeks).sort().forEach(week => {
-      const li = document.createElement('li');
-      li.textContent = week;
-      ul.appendChild(li);
-
-      const subUl = document.createElement('ul');
-      li.appendChild(subUl);
-
-      weeks[week].sort().forEach(project => {
-        const subLi = document.createElement('li');
-        const link = document.createElement('a');
-        link.href = week + '/' + project + '/';
-        link.textContent = project;
-        subLi.appendChild(link);
-        subUl.appendChild(subLi);
-      });
-    });
-  })
-  .catch(error => {
-    console.error('Failed to build project navigation:', error);
-  });
+// Keep root page JS minimal for Week 7 links.
 // Week 1: You'll add theme toggle code here
 // Week 2: You'll add localStorage persistence here
 // Week 3+: More to come...
