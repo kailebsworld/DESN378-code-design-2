@@ -8,11 +8,7 @@
     <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
-    <section class="spacer spacer--top">
-      <h1>SCROLL DOWN TO LOAD</h1>
-    </section>
-
-    <section class="scroll-loader">
+    <section class="section scroll-loader">
       <div class="preloader" id="preloader">
         <div class="pixel-grid">
           <div class="pixel-row" id="top-row"></div>
@@ -67,16 +63,16 @@
       </div>
     </section>
 
-    <section class="content">
-      <div>
+    <section class="section section--hero content">
+      <div class="section__content">
         <h1>SYSTEM READY</h1>
         <p>MINIMAL INTERFACE ACTIVATED</p>
       </div>
     </section>
 
-    <section class="control-scene" aria-label="Opening Control Scene">
+    <section class="section section--control control-scene" aria-label="Opening Control Scene">
       <div class="wire-grid" aria-hidden="true"></div>
-      <div class="control-wrap">
+      <div class="section__content control-wrap">
         <p class="control-side">01 OPENING I WANT CONTROL</p>
         <div class="container">
           <div class="hi">
@@ -103,8 +99,149 @@
       </div>
     </section>
 
-    <section class="spacer spacer--bottom">
-      <h2>KEEP SCROLLING</h2>
+    <section class="section section--log">
+      <div class="section__content log-stack">
+        <article class="log-entry log-entry--blue">
+          <header class="log-header">
+            <span class="log-number">01</span>
+            <h2>Opening - "I want control."</h2>
+          </header>
+          <div class="log-card">
+            <div class="log-grid">
+              <div>
+                <p class="chip chip--blue">METAPHOR MOMENT</p>
+                <p>Everything feels slippery and unpredictable. Type moves on its own. I click buttons that dodge me.</p>
+              </div>
+              <div>
+                <p class="chip chip--green">JS CONCEPT</p>
+                <p class="log-mono">No concepts yet - just confusion</p>
+              </div>
+            </div>
+            <hr />
+            <p class="chip chip--red">WHAT SHIFTED</p>
+            <p class="log-quote">I realized the problem is not chaos - it is that I have no way to grab or direct anything. I need tools.</p>
+            <div class="log-notes">
+              <h3>VISUAL / ANIMATION NOTES</h3>
+              <p>Open on a dark screen. Text jitters subtly. A single button labeled "SYSTEM" floats in the center. User tries to click - it dodges slowly.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="log-entry">
+          <header class="log-header">
+            <span class="log-number">02</span>
+            <h2>First Contact - console.log / DevTools</h2>
+          </header>
+          <div class="log-card">
+            <div class="log-grid">
+              <div>
+                <p class="chip chip--blue">METAPHOR MOMENT</p>
+                <p>I can finally see what the type is doing. It is not random - it has a pattern. The console shows me the hidden instructions.</p>
+              </div>
+              <div>
+                <p class="chip chip--green">JS CONCEPT</p>
+                <p class="log-mono">console.log() + browser DevTools</p>
+              </div>
+            </div>
+            <hr />
+            <p class="chip chip--red">WHAT SHIFTED</p>
+            <p class="log-quote">From "what is happening?" to "oh, I can see what is happening." Debugging becomes visibility, not magic.</p>
+          </div>
+        </article>
+
+        <article class="log-entry">
+          <header class="log-header">
+            <span class="log-number">03</span>
+            <h2>Naming Things - variables (let, const)</h2>
+          </header>
+          <div class="log-card">
+            <div class="log-grid">
+              <div>
+                <p class="chip chip--blue">METAPHOR MOMENT</p>
+                <p>Labeling type blocks so I can grab them again. Before, everything was anonymous. Now I can point and say "this one."</p>
+              </div>
+              <div>
+                <p class="chip chip--green">JS CONCEPT</p>
+                <p class="log-mono">let, const, variable assignment</p>
+              </div>
+            </div>
+            <hr />
+            <p class="chip chip--red">WHAT SHIFTED</p>
+            <p class="log-quote">I stopped feeling like I was chasing ghosts. Variables gave me handles. I could reference the same thing twice.</p>
+            <div class="log-notes">
+              <h3>VISUAL / ANIMATION NOTES</h3>
+              <p>A word appears on screen. User hovers - it highlights. A label appears: "let headline = ..." The word becomes selectable.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="log-entry log-entry--red">
+          <header class="log-header">
+            <span class="log-number">04</span>
+            <h2>The Switch - conditionals + classList.toggle</h2>
+          </header>
+          <div class="log-card">
+            <div class="log-grid">
+              <div>
+                <p class="chip chip--blue">METAPHOR MOMENT</p>
+                <p>Rules that flip calm/chaos modes. "If the vibe is X, do Y." One click changes the entire visual state.</p>
+              </div>
+              <div>
+                <p class="chip chip--green">JS CONCEPT</p>
+                <p class="log-mono">if/else statements + classList.toggle()</p>
+              </div>
+            </div>
+            <hr />
+            <p class="chip chip--red">WHAT SHIFTED</p>
+            <p class="log-quote">I realized I could design two states and flip between them. Control is not stopping motion - it is choreographing it.</p>
+          </div>
+        </article>
+
+        <article class="log-entry">
+          <header class="log-header">
+            <span class="log-number">05</span>
+            <h2>The Memory - localStorage</h2>
+          </header>
+          <div class="log-card">
+            <div class="log-grid">
+              <div>
+                <p class="chip chip--blue">METAPHOR MOMENT</p>
+                <p>The piece remembers yesterday's state. It does not reset every time. The chaos (or calm) persists.</p>
+              </div>
+              <div>
+                <p class="chip chip--green">JS CONCEPT</p>
+                <p class="log-mono">localStorage.setItem() / .getItem()</p>
+              </div>
+            </div>
+            <hr />
+            <p class="chip chip--red">WHAT SHIFTED</p>
+            <p class="log-quote">The page stopped feeling like it forgot me. It became a space I could return to. Memory = continuity = relationship.</p>
+          </div>
+        </article>
+
+        <article class="log-entry log-entry--green">
+          <header class="log-header">
+            <span class="log-number">06</span>
+            <h2>Closing - "I do not control it fully, but I can choreograph it."</h2>
+            <span class="log-badge">STRETCH</span>
+          </header>
+          <div class="log-card">
+            <div class="log-grid">
+              <div>
+                <p class="chip chip--blue">METAPHOR MOMENT</p>
+                <p>The system still surprises me. But now I have the tools to shape how it surprises me. Bugs become features.</p>
+              </div>
+              <div>
+                <p class="chip chip--green">JS CONCEPT</p>
+                <p class="log-mono">All of the above + design tokens (stretch)</p>
+              </div>
+            </div>
+            <hr />
+            <p class="chip chip--red">WHAT SHIFTED</p>
+            <p class="log-quote">Learning is not about mastery. It is about building a relationship with a system that is always slightly out of reach.</p>
+          </div>
+        </article>
+      </div>
     </section>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
