@@ -1,6 +1,12 @@
-gsap.registerPlugin(ScrollTrigger);
+if (typeof window.gsap !== "undefined" && typeof window.ScrollTrigger !== "undefined") {
+  gsap.registerPlugin(ScrollTrigger);
+}
 
 document.addEventListener("DOMContentLoaded", () => {
+  if (typeof window.gsap === "undefined" || typeof window.ScrollTrigger === "undefined") {
+    return;
+  }
+
   const counter = document.getElementById("counter");
   const counterOutline = document.getElementById("counter-outline");
   const progressBar = document.querySelector(".progress");
